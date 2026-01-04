@@ -10,6 +10,7 @@ namespace DbOperationWithEFCoreApp.Data
         }
         public DbSet<Book> Books { get; set; }
         public DbSet<test> tests { get; set; }
-        public DbSet<branch> branchs { get; set; }
+        public DbSet<branch> branchs { get; set; }  
+        public DbSet<Language> languages { get; set; }
     }
 }
